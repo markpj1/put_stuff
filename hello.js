@@ -18,4 +18,10 @@ function countUp(array) {
 	return count;
     
 }
-console.log(countUp(myArray));
+console.log(countUp(myArray)); 
+var flat = [];
+for(var i = 1; i <= 10; i++) {
+	flat.push(i);
+	
+};
+console.log(flat);
